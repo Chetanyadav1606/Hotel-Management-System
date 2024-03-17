@@ -40,8 +40,8 @@ printf("\033[1;33mEnter your username: \033[0m");
 gets(username);
 printf("\033[1;33mEnter your password: \033[0m");
 scanf("%s", password);
-char correctUsername[] = "tcet";
-char correctPassword[] = "ganesh.com";
+char correctUsername[] = "Chetan";
+char correctPassword[] = "123";
 if (strcmp(username, correctUsername) == 0 && strcmp(password, correctPassword) == 0)
 {
       printf("\033[1;35mLogin successful!\n\033[0m");
